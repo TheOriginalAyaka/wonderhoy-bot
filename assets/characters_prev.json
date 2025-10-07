@@ -1,0 +1,210 @@
+[
+  {
+    "id": "airi",
+    "name": "Airi Momoi",
+    "name_jp": "愛莉 桃井",
+    "color": "#FB8AAC",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093345769798512720/ari-01.png",
+    "emoji": "<:airi:1093346507907932292>"
+  },
+  {
+    "id": "akito",
+    "name": "Akito Shinonome",
+    "name_jp": "彰人 東雲",
+    "color": "#FF7722",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093614343825915934/akito-01.png",
+    "emoji": "<:akito:1093613770594594936>"
+  },
+  {
+    "id": "an",
+    "name": "An Shiraishi",
+    "name_jp": "杏 白石",
+    "color": "#00BADC",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093615233806905384/an-01.png",
+    "emoji": "<:an:1093614957905588224>"
+  },
+  {
+    "id": "emu",
+    "name": "Emu Otori",
+    "name_jp": "えむ 鳳",
+    "color": "#FF66BB",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093615643653328927/emu-01.png",
+    "emoji": "<:emu:1094261561155133480>"
+  },
+  {
+    "id": "ena",
+    "name": "Ena Shinonome",
+    "name_jp": "絵名 東雲",
+    "color": "#B18F6C",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093616107354595388/ena-01.png",
+    "emoji": "<:ena:1094261743330541729>"
+  },
+  {
+    "id": "haruka",
+    "name": "Haruka Kiritani",
+    "name_jp": "遥 桐谷",
+    "color": "#6495F0",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093616522351628318/haruka-01.png",
+    "emoji": "<:haruka:1094261899115376712>"
+  },
+  {
+    "id": "honami",
+    "name": "Honami Mochizuki",
+    "name_jp": "穂波 望月",
+    "color": "#F86666",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093616952435552266/honami-01.png",
+    "emoji": "<:honami:1094262044632563813>"
+  },
+  {
+    "id": "ichika",
+    "name": "Ichika Hoshino",
+    "name_jp": "一歌 星乃",
+    "color": "#33AAEE",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093617904152490064/ichika-01.png",
+    "emoji": "<:ichika:1094262202418089994>"
+  },
+  {
+    "id": "kaito",
+    "name": "KAITO",
+    "name_jp": "KAITO",
+    "color": "#3366CC",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093618317568245881/kaito-01.png",
+    "emoji": "<:kaito:1094262392122245140>"
+  },
+  {
+    "id": "kanade",
+    "name": "Kanade Yoisaki",
+    "name_jp": "奏 宵崎",
+    "color": "#BB6688",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093619001843785780/kanade-01.png",
+    "emoji": "<:kanade:1094262562914316408>"
+  },
+  {
+    "id": "kohane",
+    "name": "Kohane Azusawa",
+    "name_jp": "こはね 小豆沢",
+    "color": "#FF6699",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1093619469567393812/kohane-01.png",
+    "emoji": "<:kohane:1094262705885556736>"
+  },
+  {
+    "id": "len",
+    "name": "Len Kagamine",
+    "name_jp": "レン 鏡音",
+    "color": "#D3BD00",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094243763926339624/len-01.png",
+    "emoji": "<:len:1094262824701792266>"
+  },
+  {
+    "id": "luka",
+    "name": "Luka Megurine",
+    "name_jp": "ルカ 巡音",
+    "color": "#F88CA7",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094244222187614338/luka-01.png",
+    "emoji": "<:luka:1094262966876123248>"
+  },
+  {
+    "id": "mafuyu",
+    "name": "Mafuyu Asahina",
+    "name_jp": "まふゆ 朝比奈",
+    "color": "#7171AF",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094244661503217865/mafuyu-01.png",
+    "emoji": "<:mafuyu:1094263132328841246>"
+  },
+  {
+    "id": "meiko",
+    "name": "MEIKO",
+    "name_jp": "MEIKO",
+    "color": "#E4485F",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094245171174068274/meiko-01.png",
+    "emoji": "<:meiko:1094263290395381800>"
+  },
+  {
+    "id": "miku",
+    "name": "Miku Hatsune",
+    "name_jp": "ミク 初音",
+    "color": "#33CCBB",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094245582228422757/miku-01.png",
+    "emoji": "<:miku:1094263461011263519>"
+  },
+  {
+    "id": "minori",
+    "name": "Minori Hanasato",
+    "name_jp": "みのり 花里",
+    "color": "#F39E7D",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094246945398202468/minori-01.png",
+    "emoji": "<:minori:1094263627277664356>"
+  },
+  {
+    "id": "mizuki",
+    "name": "Mizuki Akiyama",
+    "name_jp": "瑞希 暁山",
+    "color": "#CA8DB6",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094247456134418623/mizuki-01.png",
+    "emoji": "<:mizuki:1094263876650016858>"
+  },
+  {
+    "id": "nene",
+    "name": "Nene Kusanagi",
+    "name_jp": "寧々 草薙",
+    "color": "#19CD94",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094248028950495362/nene-01.png",
+    "emoji": "<:nene:1094264060582830191>"
+  },
+  {
+    "id": "rin",
+    "name": "Rin Kagamine",
+    "name_jp": "リン 鏡音",
+    "color": "#E8A505",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094248530593456138/rin-01.png",
+    "emoji": "<:rin:1094264676822564934>"
+  },
+  {
+    "id": "rui",
+    "name": "Rui Kamishiro",
+    "name_jp": "類 神代",
+    "color": "#BB88EE",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094253819984085032/rui-01.png",
+    "emoji": "<:rui:1094264833563705436>"
+  },
+  {
+    "id": "saki",
+    "name": "Saki Tenma",
+    "name_jp": "咲希 天馬",
+    "color": "#F5B303",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094254290996052058/saki-01.png",
+    "emoji": "<:saki:1094264979781328919>"
+  },
+  {
+    "id": "shiho",
+    "name": "Shiho Hinomori",
+    "name_jp": "志歩 日野森",
+    "color": "#A0C10B",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094256560370356274/shiho-01.png",
+    "emoji": "<:shiho:1094265147868069949>"
+  },
+  {
+    "id": "shizuku",
+    "name": "Shizuku Hinomori",
+    "name_jp": "雫 日野森",
+    "color": "#5CD0B9",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094257781059616839/shizuku-01.png",
+    "emoji": "<:shizuku:1094265295985713183>"
+  },
+  {
+    "id": "toya",
+    "name": "Toya Aoyagi",
+    "name_jp": "冬弥 青柳",
+    "color": "#0077DD",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094260581806112929/touya-01.png",
+    "emoji": "<:toya:1094265469109817434>"
+  },
+  {
+    "id": "tsukasa",
+    "name": "Tsukasa Tenma",
+    "name_jp": "司 天馬",
+    "color": "#F09A04",
+    "img": "https://cdn.discordapp.com/attachments/1093304431870742528/1094261038007996416/tsukasa-01.png",
+    "emoji": "<:tsukasa:1094265608398442596>"
+  }
+]

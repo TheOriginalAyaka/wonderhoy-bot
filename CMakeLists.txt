@@ -15,6 +15,9 @@ add_executable(wonderhoycxx
         src/commands/create.cpp
         src/modules/create_sticker.cpp
         src/data/characters.cpp
+        src/commands/characters.cpp
+        src/utils/parse_emoji.cpp
+        src/utils/parse_hex_color.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}

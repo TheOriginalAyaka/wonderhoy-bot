@@ -4,6 +4,8 @@
 
 #include "command_handler.h"
 #include "data/characters.h"
+#include "utils/parse_emoji.h"
+#include "utils/parse_hex_color.h"
 
 static std::string to_lower(std::string str) {
     std::ranges::transform(str, str.begin(),
@@ -75,6 +77,46 @@ namespace Commands {
 
                     bot.interaction_response_create(event.command.id, event.command.token, response);
                 }
+            }
+        });
+
+        bot.on_select_click([](const dpp::select_click_t &event) {
+            if (event.custom_id == "characters") {
+                const auto selected = event.values[0];
+                if (selected.empty()) return;
+                const auto &previews = get_all_character_previews();
+                const auto &selected_preview = get_character_preview(selected);
+                if (!selected_preview) return;
+
+                uint32_t color;
+                (void) parse_hex_color(selected_preview->color.c_str(), &color);
+                const dpp::embed embed = dpp::embed()
+                        .set_title(selected_preview->name)
+                        .set_image(selected_preview->img)
+                        .set_color(color)
+                        .set_footer(dpp::embed_footer().set_text("Made by Ayaka (@cuny.)"));
+
+                dpp::component component = dpp::component()
+                        .set_type(dpp::cot_selectmenu)
+                        .set_placeholder("Select a character")
+                        .set_id("characters");
+
+                for (const auto &character: previews) {
+                    if (character.name == selected_preview->name) continue;
+
+                    const auto em = parse_emoji(character.emoji);
+
+                    component.add_select_option(
+                        dpp::select_option(character.name, character.id, character.name_jp).set_emoji(em->name, em->id));
+                }
+
+                dpp::message message;
+
+                message.add_component(dpp::component().add_component(component));
+                message.add_embed(embed);
+                message.set_flags(dpp::m_ephemeral);
+
+                event.reply(dpp::ir_update_message, message);
             }
         });
     }
