@@ -16,7 +16,8 @@ namespace Commands {
             dpp::command_option(dpp::co_integer, "horizontal", "Text horizontal offset", false),
             dpp::command_option(dpp::co_integer, "vertical", "Text vertical offset", false),
             dpp::command_option(dpp::co_number, "rotation", "Text rotation", false),
-            dpp::command_option(dpp::co_integer, "size", "Text size", false)
+            dpp::command_option(dpp::co_integer, "size", "Text size", false),
+            dpp::command_option(dpp::co_boolean, "ephemeral", "Whether to send the sticker as ephemeral (only you can see it)", false)
         },
         .context_types = {dpp::itc_bot_dm, dpp::itc_guild, dpp::itc_private_channel},
         .handler = [](const dpp::slashcommand_t &event) {
@@ -45,11 +46,18 @@ namespace Commands {
                 options.font_size = static_cast<int>(std::get<int64_t>(size_param));
             }
 
+            const auto ephemeral_param = event.get_parameter("ephemeral");
+            bool ephemeral = false;
+            if (std::holds_alternative<bool>(ephemeral_param)) {
+                ephemeral = std::get<bool>(ephemeral_param);
+            }
+
             const auto res = create_sticker(text.c_str(), character_id, &options);
 
             dpp::message message;
 
             message.add_file("sticker.png", res);
+            if (ephemeral) message.set_flags(dpp::m_ephemeral);
 
             event.reply(message);
         }

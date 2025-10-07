@@ -18,6 +18,8 @@ add_executable(wonderhoycxx
         src/commands/characters.cpp
         src/utils/parse_emoji.cpp
         src/utils/parse_hex_color.cpp
+        src/commands/support.cpp
+        src/commands/code.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}
