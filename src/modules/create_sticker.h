@@ -6,6 +6,7 @@
 #define WONDERHOYCXX_CREATE_STICKER_H
 
 #include <string>
+#include <optional>
 
 struct Options {
     std::optional<int> font_size;
