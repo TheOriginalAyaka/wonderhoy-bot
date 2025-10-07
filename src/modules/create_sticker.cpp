@@ -107,7 +107,8 @@ std::string create_sticker(const char *text, int character_id, Options *options)
     const float center_shift_y = (height - draw_h) * 0.5f;
 
     const auto dest = SkRect::MakeXYWH(center_shift_x, center_shift_y, draw_w, draw_h);
-    canvas->drawImageRect(src, dest, SkSamplingOptions(), nullptr);
+    SkSamplingOptions sampling(SkFilterMode::kLinear, SkMipmapMode::kLinear);
+    canvas->drawImageRect(src, dest, sampling, nullptr);
 
     int font_size = options->font_size.value_or(45);
     int text_x = options->horizontal.value_or(width / 2);
